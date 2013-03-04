@@ -1,0 +1,352 @@
+
+/**
+ * Theme Name: BootDown
+ * Theme URI: http://rchour.net/bootdown/
+ * Description: Theme Design by gnrocks
+ * Version: 1.0
+ * Author: gnrocks
+ * Author URI: http://rchour.net/bootdown/
+ * License: GNU General Public License v2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: white, two-columns, fixed-width, custom-background, threaded-comments, translation-ready, custom-menu
+ * 
+ *     BootDown
+ *     
+ *     This theme was designed and built by gnrocks exclusively for {wrap}bootstrap
+ *     http://wrapbootstrap.com/user/gnrocks
+ *
+   ======================================================= */
+   
+
+@import url(http://fonts.googleapis.com/css?family=Dosis:200);
+
+
+/* =======================================================
+   Basics
+   ======================================================= */
+
+body {
+    padding: 60px 0;
+    -webkit-font-smoothing: antialiased;
+    background: url(../img/pattern.png);
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+}
+h1 {
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 4px #000;
+    margin-top: 20px;
+}
+p a {
+    color: #fff;
+    border-bottom: 2px solid #2da1ec;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+p a:hover {
+    color: #2da1ec;
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+}
+hr {
+    margin: 18px 0;
+    border: 0;
+    -moz-box-shadow: rgba(255,255,255,0.07) 0 1px 0;
+    -webkit-box-shadow: rgba(255,255,255,0.07) 0 1px 0;
+    -o-box-shadow: rgba(255,255,255,0.07) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.07) 0 1px 0;
+    border-bottom: 1px solid #121212;
+    border-top: 0;
+}
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #444;
+}
+::-moz-selection {
+    color: #fff;
+    text-shadow: none;
+    background: #444;
+}
+
+
+/* =======================================================
+   Header (Title + Subtitle)
+   ======================================================= */
+
+header {
+    text-align: center;
+    -webkit-animation-name: bounceInDown;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: bounceInDown;
+    -moz-animation-fill-mode: both;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    animation-name: bounceInDown;
+    animation-fill-mode: both;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+    header p, p.highlight {
+        margin: 1.1em auto;
+        line-height: 1.3em;
+        font-size: 23px;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+    }
+    
+    
+/* =======================================================
+   Hero Unit Section
+   ======================================================= */
+   
+.hero-unit {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 6px #000;
+    border-radius: 6px;
+    color: #fff;
+}
+
+  /* ===== Countdown ===== */
+	
+	.hasCountdown {
+	    margin-bottom: 30px
+	}
+	    .hasCountdown span {
+	        display: block;
+	        float: left;
+	    }
+	    .hasCountdown .desc {
+	        display: inline-block;
+	        width: 100px;
+	        margin: 0 16px;
+	        position: relative;
+	    }
+	    .hasCountdown .mask {
+	        position: absolute;
+	        top: 0;
+	        left: 0;
+	        background: url(../img/desc.png);
+	        z-index: 2;
+	        width: 100px;
+	        height: 140px;
+	    }
+	    .hasCountdown .image {
+	        background: url(../img/clock.png);
+	        line-height: 140px;
+	        text-align: center;
+	        font-family: 'Dosis', sans-serif;
+	        font-weight: 200;
+	        font-size: 80px;
+	        color: #7b7f86;
+	        text-shadow: 1px 1px rgba(0,0,0,0.2);
+	        margin-bottom: 10px;
+	        width: 50px;
+	        height: 140px;
+	    }
+	    .hasCountdown .text {
+	        display: block;
+	        width: 100px;
+	        text-align: center;
+	        color: #ebebeb;
+	        text-transform: uppercase;
+	        font-weight: 700;
+	        text-shadow: 1px 1px rba(255,255,255,0.2);
+	        font-size: 75%;
+	        height: inherit;
+	    }
+
+	/* ===== Newsletter form ===== */
+
+	#newsletter .controls {
+	    margin: 0 auto;
+	    position: relative;
+	    width: 90%;
+	    text-align: center;
+	}
+	    #newsletter .controls .input-append {
+	        width: 100%
+	    }
+	::-webkit-input-placeholder {
+	    color: rgba(255, 255, 255, 0.4)
+	}
+	::-moz-input-placeholder {
+	    color: rgba(255, 255, 255, 0.4)
+	}
+	input {
+	    font-family: "Helvetica Neue", Helvetica, sans-serif;
+	    font-size: 25px;
+	}
+	input[type=email] {
+	    outline: none;
+	    display: inline-block;
+	    padding: 15px 17% 15px 3%;
+	    margin: 0 auto;
+	    width: 80%;
+	    color: #fff;
+	    border: none;
+	    -moz-border-radius: 6px;
+	    -webkit-border-radius: 6px;
+	    border-radius: 6px;
+	    background: rgba(0, 0, 0, 0.3);
+	    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.9);
+	    -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.9);
+	    -o-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.9);
+	    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.9);
+	}
+	input[type=email]:hover {
+	    background: rgba(0, 0, 0, 0.5)
+	}
+	input[type=email]:focus {
+	    -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 1), 0 0 0 5px rgba(0, 0, 0, 0.2);
+	    -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 1), 0 0 0 5px rgba(0, 0, 0, 0.2);
+	    -o-box-shadow: inset 0 0 8px rgba(0, 0, 0, 1), 0 0 0 5px rgba(0, 0, 0, 0.2);
+	    box-shadow: inset 0 0 8px rgba(0, 0, 0, 1), 0 0 0 5px rgba(0, 0, 0, 0.2);
+	    background: rgba(0, 0, 0, 0.6);
+	}
+	input[type=submit] {
+	    font-size: 20px;
+	    color: #222;
+	    text-shadow: 0 1px 0 #fff;
+	    padding: 10px;
+	    width: 100px;
+	    height: 40px;
+	    border: none;
+	    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 1), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 1), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	    -o-box-shadow: 0 0 5px rgba(0, 0, 0, 1), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	    box-shadow: 0 0 5px rgba(0, 0, 0, 1), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    border-radius: 3px;
+	    cursor: pointer;
+	    position: absolute;
+	    right: 4px;
+	    top: 4px;
+	    background: #f0f0f0;
+	    background: -moz-linear-gradient(top, #f0f0f0 0%, #c3d7ff 100%);
+	    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f0f0), color-stop(100%,#c3d7ff));
+	    background: -webkit-linear-gradient(top, #f0f0f0 0%,#c3d7ff 100%);
+	    background: -o-linear-gradient(top, #f0f0f0 0%,#c3d7ff 100%);
+	    background: -ms-linear-gradient(top, #f0f0f0 0%,#c3d7ff 100%);
+	    background: linear-gradient(top, #f0f0f0 0%,#c3d7ff 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#c3d7ff',GradientType=0 );
+	}
+	input[type=submit]:hover {
+	    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+	}
+	input[type=submit]:active {
+	    background: #c3d7ff;
+	    background: -moz-linear-gradient(top,  #c3d7ff 0%, #f0f0f0 100%);
+	    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c3d7ff), color-stop(100%,#f0f0f0));
+	    background: -webkit-linear-gradient(top,  #c3d7ff 0%,#f0f0f0 100%);
+	    background: -o-linear-gradient(top,  #c3d7ff 0%,#f0f0f0 100%);
+	    background: -ms-linear-gradient(top,  #c3d7ff 0%,#f0f0f0 100%);
+	    background: linear-gradient(top,  #c3d7ff 0%,#f0f0f0 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d7ff', endColorstr='#f0f0f0',GradientType=0 );
+	}
+	
+    
+/* =======================================================
+   Content Section
+   ======================================================= */
+   
+section {
+    -webkit-animation-name: bounceInUp;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: bounceInUp;
+    -moz-animation-fill-mode: both;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    animation-name: bounceInUp;
+    animation-fill-mode: both;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.nav-menu .nav-pills {
+    text-align: center
+}
+    .nav-menu .nav-pills li {
+        display: inline-block;
+        float: none;
+    }
+.nav-pills a {
+    color: #999;
+    background-color: #F5F5F5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FAFAFA), to(#F5F5F5));
+    background-image: -webkit-linear-gradient(top, #FAFAFA, #F5F5F5);
+    background-image: -moz-linear-gradient(top, #FAFAFA, #F5F5F5);
+    background-image: -ms-linear-gradient(top, #FAFAFA, #F5F5F5);
+    background-image: -o-linear-gradient(top, #FAFAFA, #F5F5F5);
+    border: 1px solid #ffffff;
+    border: 1px solid rgba(255,255,255,0.7);
+    -webkit-box-shadow: 0 0 2px #888888;
+    -moz-box-shadow: 0 0 2px #888888;
+    box-shadow: 0 0 2px #888888;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.nav-pills > .active > a {
+    color: #212121
+}
+.nav-pills > .active > a:hover {
+    background-color: #FAFAFA;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F5F5F5), to(#FAFAFA));
+    background-image: -webkit-linear-gradient(top, #F5F5F5, #FAFAFA);
+    background-image: -moz-linear-gradient(top, #F5F5F5, #FAFAFA);
+    background-image: -ms-linear-gradient(top, #F5F5F5, #FAFAFA);
+    background-image: -o-linear-gradient(top, #F5F5F5, #FAFAFA);
+    color: #212121;
+}
+ 
+    
+/* =======================================================
+   Carousel
+   ======================================================= */
+   
+.hero-unit.gallery {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+}
+#carousel ul {
+    margin: 0
+}
+    #carousel ul li {
+        margin-bottom: 0
+    }
+    
+@media screen and (max-width: 480px) { 
+    .es-nav span {
+        top: auto;
+        bottom: -30px;
+        left: 50%;
+        margin-left: -20px;
+        margin-top: 0;
+    }
+    .es-nav span.es-nav-next {
+        left: 50%;
+        margin-left: 20px;
+        right: auto;
+    }
+}
