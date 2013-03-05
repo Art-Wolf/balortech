@@ -31,15 +31,15 @@
             <div class="hero-unit">
                <!-- Newsletter form : Keep the id : newsletter on form--> 
 <?php
-if (isset($_REQUEST['email']))
+if (isset($_REQUEST['input01']))
 //if "email" is filled out, send email
   {
   //send email
-  $email = strip_tags($_REQUEST['email']) ;
+  $email = strip_tags($_REQUEST['input01']) ;
   $subject = "Subscription";
-  $message = "Name: " . strip_tags($_REQUEST['name']);
+  $message = "Name: " . strip_tags($_REQUEST['input02']);
   $message .= " Email Address: " . $email;
-  $message .= " Message: " . strip_tags($_REQUEST['message']);
+  $message .= " Message: " . strip_tags($_REQUEST['input03']);
 
   mail("contact@balortech.com", $subject,
   $message, "From:" . $email);
