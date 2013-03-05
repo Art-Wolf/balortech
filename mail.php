@@ -117,7 +117,7 @@ else
                            U.S.A 
                         </div>
                         <div class="span8">
-                           <form class="form-horizontal">
+                           <form class="form-horizontal" action="contact.php">
                               <div class="control-group">
                                  <label class="control-label" for="input01">Your Name</label>
                                  <div class="controls"><input type="text" class="input-xlarge" id="input01"></div>
