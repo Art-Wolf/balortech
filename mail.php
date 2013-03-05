@@ -120,15 +120,15 @@ else
                            <form class="form-horizontal" action="contact.php">
                               <div class="control-group">
                                  <label class="control-label" for="input01">Your Name</label>
-                                 <div class="controls"><input type="text" class="input-xlarge" id="input01"></div>
+                                 <div class="controls"><input type="text" name="name" class="input-xlarge" id="input01"></div>
                               </div>
                               <div class="control-group">
                                  <label class="control-label" for="input02">Your Email</label>
-                                 <div class="controls"><input type="text" class="input-xlarge" id="input02"></div>
+                                 <div class="controls"><input type="text" name="email" class="input-xlarge" id="input02"></div>
                               </div>
                               <div class="control-group">
                                  <label class="control-label" for="input03">Message</label>
-                                 <div class="controls"><textarea class="input-xlarge" id="input03" rows="3"></textarea></div>
+                                 <div class="controls"><textarea class="input-xlarge" name="message" id="input03" rows="3"></textarea></div>
                               </div>
                               <div class="control-group">
                                  <input type="submit" value="Submit">
