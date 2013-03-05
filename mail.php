@@ -30,11 +30,30 @@
             <p>Lets take the annoyance of queueing out of ordering a drink. Stop the worry that your tab is growing out of control. Subscribe to be notified when it's available, or follow us on <a href="http://twitter.com/BalorTech">Twitter.</a></p>
             <div class="hero-unit">
                <!-- Newsletter form : Keep the id : newsletter on form--> 
+<?php
+if (isset($_REQUEST['email']))
+//if "email" is filled out, send email
+  {
+  //send email
+  $email = strip_tags($_REQUEST['email']) ;
+  $subject = "Subscription";
+  $message = "Email Address: " . $email ;
+  mail("contact@balortech.com", $subject,
+  $message, "From:" . $email);
+  }
+else
+//if "email" is not filled out, display the form
+  {
+?>
+
                <form class="form-horizontal" id="newsletter" action="mail.php">
                   <div class="control-group">
                      <div class="controls"> <input type="email" name="email" placeholder="Enter your email address to be notified"> <input type="submit" value="Go !"> </div>
                   </div>
                </form>
+<?php
+   }
+?>
                <!-- end #newsletter -->
             </div>
             <!-- end .hero-unit -->
