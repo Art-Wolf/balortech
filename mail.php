@@ -40,6 +40,11 @@ if (isset($_REQUEST['email']))
   $message = "Email Address: " . $email ;
   mail("contact@balortech.com", $subject,
   $message, "From:" . $email);
+?>
+               <form class="form-horizontal" id="newsletter" >
+                  <p>Thank you for registering your interest, we will keep you in the loop!</p>
+               </form>
+<?php
   }
 else
 //if "email" is not filled out, display the form
