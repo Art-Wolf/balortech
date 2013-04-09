@@ -1,9 +1,8 @@
 require 'rubygems'
 require 'sinatra'
 require 'json'
- 
-post '/test' do
-  data = JSON.parse(request.body.read)
-  data.to_json
-end
 
+put '/users/:id' do |n|
+  data = JSON.parse(request.body.read)
+  "Got #{data} for user #{n}"
+end
