@@ -1,0 +1,21 @@
+class MenuItem < Couchbase::Model
+  attribute :name
+  attribute :price
+  attribute :abv, :default => 0
+  attribute :ibu, :default => 0
+  attribute :srm, :default => 0
+  attribute :updated
+  attribute :description
+
+  belongs_to :restaurant
+
+  view :all, :limit => 31
+  view :by_category, :include_docs => false, :group => true
+
+  before_save do |doc|
+    doc.abv = doc.abv.to_f
+    doc.ibu = doc.ibu.to_f
+    doc.srm = doc.srm.to_f
+    doc.price = doc.price.to_f
+  end
+end
