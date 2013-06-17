@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem "sinatra"
+gem "unicorn"
+gem "haml"
+
+group :test do
+  gem "cucumber-sinatra"
+  gem "cucumber"
+  gem "capybara"
+  gem "rake"
+  gem "rspec", ">= 2.8.1"
+end
