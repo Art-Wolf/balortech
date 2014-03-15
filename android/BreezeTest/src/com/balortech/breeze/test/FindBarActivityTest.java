@@ -40,4 +40,7 @@ public class FindBarActivityTest extends ActivityUnitTestCase<FindBarActivity> {
 				searchButton.getText());
 		}
 
+	public void testBarSearch() {
+		
+	}
 }

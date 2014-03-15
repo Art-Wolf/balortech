@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -23,8 +24,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.balortech.breeze.FindBar"
+            android:name="com.balortech.breeze.FindBarActivity"
             android:label="@string/title_activity_find_bar" >
+        </activity>
+        <activity
+            android:name="com.balortech.breeze.BarSearchActivity"
+            android:label="@string/title_activity_bar_search"
+            android:parentActivityName="com.balortech.breeze.FindBarActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.balortech.breeze.FindBarActivity" />
         </activity>
     </application>
 

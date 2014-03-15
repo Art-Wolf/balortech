@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 	}
 
 	public void findBar(View view) {
-		Intent intent = new Intent(this, FindBar.class);
+		Intent intent = new Intent(this, FindBarActivity.class);
 		startActivity(intent);
 	}
 }

@@ -6,5 +6,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="button_find_bar">Find Bar</string>
     <string name="title_activity_find_bar">FindBar</string>
+    <string name="button_search">Search</string>
+    <string name="example_bar_name">Bar Name</string>
+    <string name="title_activity_bar_search">BarSearchActivity</string>
 
 </resources>
