@@ -1,6 +1,2 @@
 [couchbase-main]
-node1.balortech.com
-
-[couchbase-nodes]
-node2.balortech.com
-node3.balortech.com
+localhost
