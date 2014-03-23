@@ -1,7 +1,7 @@
 
 - name: Couchbase Installation
   hosts: all
-  user: root
+  user: johndoyle
    
   tasks:
 
@@ -12,10 +12,13 @@
     shell: rm -rf ~/Library/Application Support/Membase
 
   - name: clean up prior couchbase app
-    shell: rm -rf /Applications/Couchbase\ Server.app/i
+    shell: rm -rf /Applications/Couchbase\ Server.app
 
   - name: download Couchbase package
     get_url: url=http://packages.couchbase.com/releases/2.2.0/couchbase-server-community_2.2.0_x86_64.zip dest=~/.
+
+  - name: Unzip the Couchbase package
+    shell: unzip ~/couchbase-server-community_2.2.0_x86_64.zip -d ~/
 
   - name: Move to Applications
     shell: mv ~/Couchbase\ Server.app/ /Applications
