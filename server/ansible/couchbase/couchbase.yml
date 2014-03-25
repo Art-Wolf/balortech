@@ -18,7 +18,7 @@
     get_url: url=http://packages.couchbase.com/releases/2.2.0/couchbase-server-community_2.2.0_x86_64.zip dest=~/.
 
   - name: Unzip the Couchbase package
-    shell: unzip ~/couchbase-server-community_2.2.0_x86_64.zip -d ~/
+    unarchive: src=~/couchbase-server-community_2.2.0_x86_64.zip dest=~/
 
   - name: Move to Applications
     shell: mv ~/Couchbase\ Server.app/ /Applications
@@ -31,11 +31,11 @@
 
 - name: Initialize the cluster and add the nodes to the cluster
   hosts: couchbase-main
-  user: root 
+  user: johndoyle
 
   tasks:
   - name: Configure main node
-    shell: /Applications/Couchbase\ Server.app/Contents/Resources/couchbase-core/bin/couchbase-cli cluster-init -c 127.0.0.1:8091  --cluster-init-username=${admin_user} --cluster-init-password=${admin_password} --cluster-init-port=8091 --cluster-init-ramsize=${cluster_ram_quota} 
+    shell: /Applications/Couchbase Server.app/Contents/Resources/couchbase-core/bin/couchbase-cli cluster-init -c 127.0.0.1:8091  --cluster-init-username=${admin_user} --cluster-init-password=${admin_password} --cluster-init-port=8091 --cluster-init-ramsize=${cluster_ram_quota} 
 
   - name: Rebalance the cluster
     shell: /Applications/Couchbase\ Server.app/Contents/Resources/couchbase-core/bin/couchbase-cli rebalance -c 127.0.0.1:8091 -u ${admin_user} -p ${admin_password}      
