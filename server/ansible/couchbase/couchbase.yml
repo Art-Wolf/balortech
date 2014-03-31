@@ -1,4 +1,3 @@
-
 - name: Couchbase Installation
   hosts: all
   user: johndoyle
@@ -6,10 +5,10 @@
   tasks:
 
   - name: clean up prior couchbase lib
-    shell: rm -rf ~/Library/Application Support/Couchbase
+    shell: rm -rf ~/Library/Application\ Support/Couchbase
 
   - name: clean up prior memcache lib
-    shell: rm -rf ~/Library/Application Support/Membase
+    shell: rm -rf ~/Library/Application\ Support/Membase
 
   - name: clean up prior couchbase app
     shell: rm -rf /Applications/Couchbase\ Server.app
@@ -34,8 +33,11 @@
   user: johndoyle
 
   tasks:
+  - name: Start server
+    shell: /Applications/Couchbase\ Server.app/Contents/Resources/couchbase-core/bin/couchbase-server start
+
   - name: Configure main node
-    shell: /Applications/Couchbase Server.app/Contents/Resources/couchbase-core/bin/couchbase-cli cluster-init -c 127.0.0.1:8091  --cluster-init-username=${admin_user} --cluster-init-password=${admin_password} --cluster-init-port=8091 --cluster-init-ramsize=${cluster_ram_quota} 
+    shell: /Applications/Couchbase\ Server.app/Contents/Resources/couchbase-core/bin/couchbase-cli cluster-init -c 127.0.0.1:8091  --cluster-init-username=${admin_user} --cluster-init-password=${admin_password} --cluster-init-port=8091 --cluster-init-ramsize=${cluster_ram_quota} 
 
   - name: Rebalance the cluster
     shell: /Applications/Couchbase\ Server.app/Contents/Resources/couchbase-core/bin/couchbase-cli rebalance -c 127.0.0.1:8091 -u ${admin_user} -p ${admin_password}      
