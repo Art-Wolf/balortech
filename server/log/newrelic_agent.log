@@ -1,0 +1,256 @@
+# Logfile created on 2014-07-27 20:23:26 -0400 by logger.rb/36483
+[07/27/14 20:23:26 -0400 localhost (79820)] INFO : No dispatcher detected.
+[07/27/14 20:23:26 -0400 localhost (79820)] INFO : Application: Demo
+[07/27/14 20:23:26 -0400 localhost (79820)] WARN : Agent configured not to send data in this environment.
+[07/27/14 20:23:26 -0400 localhost (79820)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 79820
+[07/27/14 20:23:26 -0400 localhost (79820)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 20:34:25 -0400 localhost (79870)] INFO : No dispatcher detected.
+[07/27/14 20:34:25 -0400 localhost (79870)] INFO : Application: Demo
+[07/27/14 20:34:25 -0400 localhost (79870)] WARN : Agent configured not to send data in this environment.
+[07/27/14 20:34:25 -0400 localhost (79870)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 79870
+[07/27/14 20:34:25 -0400 localhost (79870)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 21:08:45 -0400 localhost (35226)] INFO : No dispatcher detected.
+[07/27/14 21:08:45 -0400 localhost (35226)] INFO : Application: Demo
+[07/27/14 21:08:45 -0400 localhost (35226)] WARN : Agent configured not to send data in this environment.
+[07/27/14 21:08:45 -0400 localhost (35226)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 35226
+[07/27/14 21:08:45 -0400 localhost (35226)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 21:58:55 -0400 localhost (35480)] INFO : No dispatcher detected.
+[07/27/14 21:58:55 -0400 localhost (35480)] INFO : Application: Demo
+[07/27/14 21:58:55 -0400 localhost (35480)] WARN : Agent configured not to send data in this environment.
+[07/27/14 21:58:55 -0400 localhost (35480)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 35480
+[07/27/14 21:58:55 -0400 localhost (35480)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 22:01:36 -0400 localhost (35496)] INFO : No dispatcher detected.
+[07/27/14 22:01:36 -0400 localhost (35496)] INFO : Application: Demo
+[07/27/14 22:01:36 -0400 localhost (35496)] WARN : Agent configured not to send data in this environment.
+[07/27/14 22:01:36 -0400 localhost (35496)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 35496
+[07/27/14 22:01:36 -0400 localhost (35496)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 22:04:12 -0400 localhost (35511)] INFO : No dispatcher detected.
+[07/27/14 22:04:12 -0400 localhost (35511)] INFO : Application: Demo
+[07/27/14 22:04:12 -0400 localhost (35511)] WARN : Agent configured not to send data in this environment.
+[07/27/14 22:04:12 -0400 localhost (35511)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 35511
+[07/27/14 22:04:12 -0400 localhost (35511)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 22:07:23 -0400 localhost (35534)] INFO : No dispatcher detected.
+[07/27/14 22:07:23 -0400 localhost (35534)] INFO : Application: Demo
+[07/27/14 22:07:23 -0400 localhost (35534)] WARN : Agent configured not to send data in this environment.
+[07/27/14 22:07:23 -0400 localhost (35534)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 35534
+[07/27/14 22:07:23 -0400 localhost (35534)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 22:08:43 -0400 localhost (35562)] INFO : No dispatcher detected.
+[07/27/14 22:08:43 -0400 localhost (35562)] INFO : Application: Demo
+[07/27/14 22:08:43 -0400 localhost (35562)] WARN : Agent configured not to send data in this environment.
+[07/27/14 22:08:43 -0400 localhost (35562)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 35562
+[07/27/14 22:08:43 -0400 localhost (35562)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 22:41:01 -0400 localhost (35723)] INFO : No dispatcher detected.
+[07/27/14 22:41:01 -0400 localhost (35723)] INFO : Application: Demo
+[07/27/14 22:41:01 -0400 localhost (35723)] WARN : Agent configured not to send data in this environment.
+[07/27/14 22:41:01 -0400 localhost (35723)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 35723
+[07/27/14 22:41:01 -0400 localhost (35723)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 22:43:09 -0400 localhost (35755)] INFO : No dispatcher detected.
+[07/27/14 22:43:09 -0400 localhost (35755)] INFO : Application: Demo
+[07/27/14 22:43:09 -0400 localhost (35755)] WARN : Agent configured not to send data in this environment.
+[07/27/14 22:43:09 -0400 localhost (35755)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 35755
+[07/27/14 22:43:09 -0400 localhost (35755)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 23:05:04 -0400 localhost (35922)] INFO : No dispatcher detected.
+[07/27/14 23:05:04 -0400 localhost (35922)] INFO : Application: Demo
+[07/27/14 23:05:04 -0400 localhost (35922)] WARN : Agent configured not to send data in this environment.
+[07/27/14 23:05:04 -0400 localhost (35922)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 35922
+[07/27/14 23:05:04 -0400 localhost (35922)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/27/14 23:17:03 -0400 localhost (35981)] INFO : No dispatcher detected.
+[07/27/14 23:17:03 -0400 localhost (35981)] INFO : Application: Demo
+[07/27/14 23:17:03 -0400 localhost (35981)] WARN : Agent configured not to send data in this environment.
+[07/27/14 23:17:03 -0400 localhost (35981)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 35981
+[07/27/14 23:17:03 -0400 localhost (35981)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 19:47:21 -0400 localhost (36694)] INFO : No dispatcher detected.
+[07/28/14 19:47:21 -0400 localhost (36694)] INFO : Application: Demo
+[07/28/14 19:47:21 -0400 localhost (36694)] WARN : Agent configured not to send data in this environment.
+[07/28/14 19:47:21 -0400 localhost (36694)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 36694
+[07/28/14 19:47:21 -0400 localhost (36694)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 19:48:45 -0400 localhost (36778)] INFO : No dispatcher detected.
+[07/28/14 19:48:45 -0400 localhost (36778)] INFO : Application: Demo
+[07/28/14 19:48:45 -0400 localhost (36778)] WARN : Agent configured not to send data in this environment.
+[07/28/14 19:48:45 -0400 localhost (36778)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 36778
+[07/28/14 19:48:45 -0400 localhost (36778)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 20:00:06 -0400 localhost (36917)] INFO : No dispatcher detected.
+[07/28/14 20:00:06 -0400 localhost (36917)] INFO : Application: Demo
+[07/28/14 20:00:06 -0400 localhost (36917)] WARN : Agent configured not to send data in this environment.
+[07/28/14 20:00:06 -0400 localhost (36917)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 36917
+[07/28/14 20:00:06 -0400 localhost (36917)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 20:34:03 -0400 localhost (37066)] INFO : No dispatcher detected.
+[07/28/14 20:34:03 -0400 localhost (37066)] INFO : Application: Demo
+[07/28/14 20:34:03 -0400 localhost (37066)] WARN : Agent configured not to send data in this environment.
+[07/28/14 20:34:03 -0400 localhost (37066)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37066
+[07/28/14 20:34:03 -0400 localhost (37066)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 21:09:26 -0400 localhost (37193)] INFO : No dispatcher detected.
+[07/28/14 21:09:26 -0400 localhost (37193)] INFO : Application: Demo
+[07/28/14 21:09:26 -0400 localhost (37193)] WARN : Agent configured not to send data in this environment.
+[07/28/14 21:09:26 -0400 localhost (37193)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37193
+[07/28/14 21:09:26 -0400 localhost (37193)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 21:15:13 -0400 localhost (37228)] INFO : No dispatcher detected.
+[07/28/14 21:15:13 -0400 localhost (37228)] INFO : Application: Demo
+[07/28/14 21:15:13 -0400 localhost (37228)] WARN : Agent configured not to send data in this environment.
+[07/28/14 21:15:13 -0400 localhost (37228)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37228
+[07/28/14 21:15:13 -0400 localhost (37228)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 21:20:10 -0400 localhost (37253)] INFO : No dispatcher detected.
+[07/28/14 21:20:10 -0400 localhost (37253)] INFO : Application: Demo
+[07/28/14 21:20:10 -0400 localhost (37253)] WARN : Agent configured not to send data in this environment.
+[07/28/14 21:20:10 -0400 localhost (37253)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37253
+[07/28/14 21:20:10 -0400 localhost (37253)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 21:24:09 -0400 localhost (37272)] INFO : No dispatcher detected.
+[07/28/14 21:24:09 -0400 localhost (37272)] INFO : Application: Demo
+[07/28/14 21:24:09 -0400 localhost (37272)] WARN : Agent configured not to send data in this environment.
+[07/28/14 21:24:09 -0400 localhost (37272)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37272
+[07/28/14 21:24:09 -0400 localhost (37272)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 21:47:29 -0400 localhost (37333)] INFO : No dispatcher detected.
+[07/28/14 21:47:29 -0400 localhost (37333)] INFO : Application: Demo
+[07/28/14 21:47:29 -0400 localhost (37333)] WARN : Agent configured not to send data in this environment.
+[07/28/14 21:47:29 -0400 localhost (37333)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37333
+[07/28/14 21:47:29 -0400 localhost (37333)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 21:55:22 -0400 localhost (37359)] INFO : No dispatcher detected.
+[07/28/14 21:55:22 -0400 localhost (37359)] INFO : Application: Demo
+[07/28/14 21:55:22 -0400 localhost (37359)] WARN : Agent configured not to send data in this environment.
+[07/28/14 21:55:22 -0400 localhost (37359)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37359
+[07/28/14 21:55:22 -0400 localhost (37359)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:03:04 -0400 localhost (37393)] INFO : No dispatcher detected.
+[07/28/14 22:03:04 -0400 localhost (37393)] INFO : Application: Demo
+[07/28/14 22:03:04 -0400 localhost (37393)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:03:04 -0400 localhost (37393)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37393
+[07/28/14 22:03:04 -0400 localhost (37393)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:03:58 -0400 localhost (37406)] INFO : No dispatcher detected.
+[07/28/14 22:03:58 -0400 localhost (37406)] INFO : Application: Demo
+[07/28/14 22:03:58 -0400 localhost (37406)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:03:58 -0400 localhost (37406)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37406
+[07/28/14 22:03:58 -0400 localhost (37406)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:06:37 -0400 localhost (37434)] INFO : No dispatcher detected.
+[07/28/14 22:06:37 -0400 localhost (37434)] INFO : Application: Demo
+[07/28/14 22:06:37 -0400 localhost (37434)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:06:37 -0400 localhost (37434)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37434
+[07/28/14 22:06:37 -0400 localhost (37434)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:20:39 -0400 localhost (37482)] INFO : No dispatcher detected.
+[07/28/14 22:20:39 -0400 localhost (37482)] INFO : Application: Demo
+[07/28/14 22:20:39 -0400 localhost (37482)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:20:39 -0400 localhost (37482)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37482
+[07/28/14 22:20:39 -0400 localhost (37482)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:22:53 -0400 localhost (37496)] INFO : No dispatcher detected.
+[07/28/14 22:22:53 -0400 localhost (37496)] INFO : Application: Demo
+[07/28/14 22:22:53 -0400 localhost (37496)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:22:53 -0400 localhost (37496)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37496
+[07/28/14 22:22:53 -0400 localhost (37496)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:31:22 -0400 localhost (37525)] INFO : No dispatcher detected.
+[07/28/14 22:31:22 -0400 localhost (37525)] INFO : Application: Demo
+[07/28/14 22:31:22 -0400 localhost (37525)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:31:22 -0400 localhost (37525)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37525
+[07/28/14 22:31:22 -0400 localhost (37525)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:35:56 -0400 localhost (37552)] INFO : No dispatcher detected.
+[07/28/14 22:35:56 -0400 localhost (37552)] INFO : Application: Demo
+[07/28/14 22:35:56 -0400 localhost (37552)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:35:56 -0400 localhost (37552)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37552
+[07/28/14 22:35:56 -0400 localhost (37552)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:42:40 -0400 localhost (37575)] INFO : No dispatcher detected.
+[07/28/14 22:42:40 -0400 localhost (37575)] INFO : Application: Demo
+[07/28/14 22:42:40 -0400 localhost (37575)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:42:40 -0400 localhost (37575)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37575
+[07/28/14 22:42:40 -0400 localhost (37575)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:45:20 -0400 localhost (37592)] INFO : No dispatcher detected.
+[07/28/14 22:45:20 -0400 localhost (37592)] INFO : Application: Demo
+[07/28/14 22:45:20 -0400 localhost (37592)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:45:20 -0400 localhost (37592)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37592
+[07/28/14 22:45:20 -0400 localhost (37592)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:46:35 -0400 localhost (37604)] INFO : No dispatcher detected.
+[07/28/14 22:46:35 -0400 localhost (37604)] INFO : Application: Demo
+[07/28/14 22:46:35 -0400 localhost (37604)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:46:35 -0400 localhost (37604)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37604
+[07/28/14 22:46:35 -0400 localhost (37604)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:47:43 -0400 localhost (37618)] INFO : No dispatcher detected.
+[07/28/14 22:47:43 -0400 localhost (37618)] INFO : Application: Demo
+[07/28/14 22:47:43 -0400 localhost (37618)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:47:43 -0400 localhost (37618)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37618
+[07/28/14 22:47:43 -0400 localhost (37618)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:50:20 -0400 localhost (37639)] INFO : No dispatcher detected.
+[07/28/14 22:50:20 -0400 localhost (37639)] INFO : Application: Demo
+[07/28/14 22:50:20 -0400 localhost (37639)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:50:20 -0400 localhost (37639)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37639
+[07/28/14 22:50:20 -0400 localhost (37639)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 22:57:12 -0400 localhost (37671)] INFO : No dispatcher detected.
+[07/28/14 22:57:12 -0400 localhost (37671)] INFO : Application: Demo
+[07/28/14 22:57:12 -0400 localhost (37671)] WARN : Agent configured not to send data in this environment.
+[07/28/14 22:57:12 -0400 localhost (37671)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37671
+[07/28/14 22:57:12 -0400 localhost (37671)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:00:09 -0400 localhost (37686)] INFO : No dispatcher detected.
+[07/28/14 23:00:09 -0400 localhost (37686)] INFO : Application: Demo
+[07/28/14 23:00:09 -0400 localhost (37686)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:00:09 -0400 localhost (37686)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37686
+[07/28/14 23:00:09 -0400 localhost (37686)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:07:30 -0400 localhost (37725)] INFO : No dispatcher detected.
+[07/28/14 23:07:30 -0400 localhost (37725)] INFO : Application: Demo
+[07/28/14 23:07:30 -0400 localhost (37725)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:07:30 -0400 localhost (37725)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37725
+[07/28/14 23:07:30 -0400 localhost (37725)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:09:37 -0400 localhost (37740)] INFO : No dispatcher detected.
+[07/28/14 23:09:37 -0400 localhost (37740)] INFO : Application: Demo
+[07/28/14 23:09:37 -0400 localhost (37740)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:09:37 -0400 localhost (37740)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37740
+[07/28/14 23:09:37 -0400 localhost (37740)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:13:35 -0400 localhost (37769)] INFO : No dispatcher detected.
+[07/28/14 23:13:35 -0400 localhost (37769)] INFO : Application: Demo
+[07/28/14 23:13:35 -0400 localhost (37769)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:13:35 -0400 localhost (37769)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37769
+[07/28/14 23:13:35 -0400 localhost (37769)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:15:26 -0400 localhost (37783)] INFO : No dispatcher detected.
+[07/28/14 23:15:26 -0400 localhost (37783)] INFO : Application: Demo
+[07/28/14 23:15:26 -0400 localhost (37783)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:15:26 -0400 localhost (37783)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37783
+[07/28/14 23:15:26 -0400 localhost (37783)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:17:31 -0400 localhost (37808)] INFO : No dispatcher detected.
+[07/28/14 23:17:31 -0400 localhost (37808)] INFO : Application: Demo
+[07/28/14 23:17:31 -0400 localhost (37808)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:17:31 -0400 localhost (37808)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37808
+[07/28/14 23:17:31 -0400 localhost (37808)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:18:24 -0400 localhost (37820)] INFO : No dispatcher detected.
+[07/28/14 23:18:24 -0400 localhost (37820)] INFO : Application: Demo
+[07/28/14 23:18:24 -0400 localhost (37820)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:18:24 -0400 localhost (37820)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37820
+[07/28/14 23:18:24 -0400 localhost (37820)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:23:10 -0400 localhost (37856)] INFO : No dispatcher detected.
+[07/28/14 23:23:10 -0400 localhost (37856)] INFO : Application: Demo
+[07/28/14 23:23:10 -0400 localhost (37856)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:23:10 -0400 localhost (37856)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37856
+[07/28/14 23:23:10 -0400 localhost (37856)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:28:35 -0400 localhost (37898)] INFO : No dispatcher detected.
+[07/28/14 23:28:35 -0400 localhost (37898)] INFO : Application: Demo
+[07/28/14 23:28:35 -0400 localhost (37898)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:28:35 -0400 localhost (37898)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37898
+[07/28/14 23:28:35 -0400 localhost (37898)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:29:53 -0400 localhost (37913)] INFO : No dispatcher detected.
+[07/28/14 23:29:53 -0400 localhost (37913)] INFO : Application: Demo
+[07/28/14 23:29:53 -0400 localhost (37913)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:29:53 -0400 localhost (37913)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37913
+[07/28/14 23:29:53 -0400 localhost (37913)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:33:18 -0400 localhost (37932)] INFO : No dispatcher detected.
+[07/28/14 23:33:18 -0400 localhost (37932)] INFO : Application: Demo
+[07/28/14 23:33:18 -0400 localhost (37932)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:33:18 -0400 localhost (37932)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37932
+[07/28/14 23:33:18 -0400 localhost (37932)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:34:16 -0400 localhost (37945)] INFO : No dispatcher detected.
+[07/28/14 23:34:16 -0400 localhost (37945)] INFO : Application: Demo
+[07/28/14 23:34:16 -0400 localhost (37945)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:34:16 -0400 localhost (37945)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37945
+[07/28/14 23:34:16 -0400 localhost (37945)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:36:26 -0400 localhost (37963)] INFO : No dispatcher detected.
+[07/28/14 23:36:26 -0400 localhost (37963)] INFO : Application: Demo
+[07/28/14 23:36:26 -0400 localhost (37963)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:36:26 -0400 localhost (37963)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37963
+[07/28/14 23:36:26 -0400 localhost (37963)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/28/14 23:39:48 -0400 localhost (37984)] INFO : No dispatcher detected.
+[07/28/14 23:39:48 -0400 localhost (37984)] INFO : Application: Demo
+[07/28/14 23:39:48 -0400 localhost (37984)] WARN : Agent configured not to send data in this environment.
+[07/28/14 23:39:48 -0400 localhost (37984)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 37984
+[07/28/14 23:39:48 -0400 localhost (37984)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/30/14 02:50:03 -0400 localhost (40257)] INFO : No dispatcher detected.
+[07/30/14 02:50:03 -0400 localhost (40257)] INFO : Application: Demo
+[07/30/14 02:50:03 -0400 localhost (40257)] WARN : Agent configured not to send data in this environment.
+[07/30/14 02:50:03 -0400 localhost (40257)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 40257
+[07/30/14 02:50:03 -0400 localhost (40257)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
+[07/30/14 03:01:45 -0400 localhost (40312)] INFO : No dispatcher detected.
+[07/30/14 03:01:45 -0400 localhost (40312)] INFO : Application: Demo
+[07/30/14 03:01:45 -0400 localhost (40312)] WARN : Agent configured not to send data in this environment.
+[07/30/14 03:01:45 -0400 localhost (40312)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 40312
+[07/30/14 03:01:45 -0400 localhost (40312)] INFO : Agent Log at /Users/johndoyle/Sites/tab/log/newrelic_agent.log
