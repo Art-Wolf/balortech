@@ -22,21 +22,24 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ExpandableListView;
+import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.os.Build;
 
 public class BarActivity extends Activity {
 
 	public final static String URL = "http://still-peak-1428.herokuapp.com/api/v1/bar/list/";
-
+	public final static String BAR_NAME = "com.balortech.tab.BAR_NAME";
+	
 	TextView response;
 	
 	private ArrayList<BarList> barList = new ArrayList<BarList>();
-	private BarListAdapter blAdapter;
 	private ExpandableListView ExpandList;
 	private BarListAdapter BarAdapter;
 
@@ -115,6 +118,33 @@ public class BarActivity extends Activity {
         	ExpandList = (ExpandableListView) findViewById(R.id.lvExp);
         	BarAdapter = new BarListAdapter(BarActivity.this, barList);
         	ExpandList.setAdapter(BarAdapter);
+        	
+        	ExpandList.setOnChildClickListener(new OnChildClickListener() {
+				@Override
+				public boolean onChildClick(ExpandableListView arg0, View arg1,
+						int arg2, int arg3, long arg4) {
+					Intent intent = null;
+					
+					switch(arg3)  {
+						case 0: // Menu
+							intent = new Intent(BarActivity.this, MainActivity.class);
+							break;
+						case 1:
+							intent = new Intent(BarActivity.this, MainActivity.class);
+							break;
+						case 2:
+							intent = new Intent(BarActivity.this, MainActivity.class);
+							break;
+					}
+					
+					if (intent != null) {
+						intent.putExtra(BAR_NAME, barList.get(arg2).getName().toString());
+				    	startActivity(intent);
+					}
+					
+					return false;
+				}
+        	});
        }
     }
 	
