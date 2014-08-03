@@ -4,47 +4,44 @@ module Tab
     format :json
 
     resource :menu do
-      desc "Create a bar" , params: Tab::Models::Bar.fields.dup.tap {|fields| fields.delete("_id") }
+      desc "Retrieve a bar by name."
+      get "/:name" do
+        menu = Tab::Models::Menu.where({name: params[:name]})
+        error! "Not Found", 404 unless menu
+        menu.as_json
+      end
+
+      desc "Create a menu item for a bar" , params: Tab::Models::Menu.fields.dup.tap {|fields| fields.delete("_id") }
       post do
-        bar = Tab::Models::Bar.create!( {
+        menu = Tab::Models::Menu.create!( {
           name: params[:name],
-          city: params[:city],
-          zipcode: params[:zipcode]
+          item_name: params[:item_name],
+          item_description: params[:item_description],
+          item_price: params[:item_price]
         } )
 
-        bar.as_json
+        menu.as_json
       end
 
-      desc "Retrieve a bar by name."
-      params do
-        requires :name, type: String, desc: "Bar name."
-      end
-      route_param :name do
-        get do
-          bar = Tab::Models::Bar.where({name: params[:name]})
-          error! "Not Found", 404 unless bar
-          bar.as_json
-        end
-      end
-
-      desc "Update a bar by name.", params: Tab::Models::Bar.fields.merge( "name" => {description: "Bar name.", required: true})
+      desc "Update a menu item by bar name and item name.", params: Tab::Models::Menu.fields.merge( "name" => {description: "Bar name.", required: true}, "item_name" => {description: "Item name.", required: true})
       put do
-        bar = Tab::Models::Bar.find_by({name: params[:name]})
-        error! "Not Found", 404 unless bar
+        menu = Tab::Models::Menu.find_by({name: params[:name], item_name: params[:item_name]})
+        error! "Not Found", 404 unless menu
         values = {}
         values[:name] = params[:name] if params.key?(:name)
-        values[:city] = params[:city] if params.key?(:city)
-        values[:zipcode] = params[:zipcode] if params.key?(:zipcode)
-        bar.update_attributes!(values)
-        bar.as_json
+        values[:item_name] = params[:item_name] if params.key?(:item_name)
+        values[:item_description] = params[:item_description] if params.key?(:item_description)
+        values[:item_price] = params[:item_price] if params.key?(:item_price)
+        menu.update_attributes!(values)
+        menu.as_json
       end
 
-      desc "Delete a bar by name.", params: { "name" => {description: "Bar name.", required: true}}
+      desc "Delete a menu item by bar name and item name", params: { "name" => {description: "Bar name.", required: true}, "item_name" =>  {description: "Item name.", required: true}}
       delete do
-        bar = Tab::Models::Bar.find_by({name: params[:name]})
-        error! "Not Found", 404 unless bar
-        bar.destroy
-        bar.as_json
+        menu = Tab::Models::Menu.find_by({name: params[:name], item_name: params[:item_name]})
+        error! "Not Found", 404 unless menu
+        menu.destroy
+        menu.as_json
       end
     end
   end
