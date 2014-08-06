@@ -11,5 +11,7 @@
     <string name="tvHelloUser">Hello User!</string>
     <string name="btFindBar">Find Bar</string>
     <string name="title_activity_bar">Bar List</string>
+    <string name="title_activity_bar_menu">Bar Menu</string>
+    <string name="tvClickToOrder">Click To Order</string>
 
 </resources>

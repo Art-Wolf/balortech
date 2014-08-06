@@ -41,5 +41,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.balortech.tab.MenuActivity" />
         </activity>
+        <activity
+            android:name="com.balortech.tab.BarMenuActivity"
+            android:label="@string/title_activity_bar_menu"
+            android:parentActivityName="com.balortech.tab.BarActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.balortech.tab.BarActivity" />
+        </activity>
     </application>
 </manifest>

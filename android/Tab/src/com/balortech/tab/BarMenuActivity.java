@@ -20,6 +20,7 @@ import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -31,30 +32,34 @@ import android.annotation.TargetApi;
 import android.content.Intent;
 import android.os.Build;
 
-public class BarActivity extends Activity {
+public class BarMenuActivity extends Activity {
 
-	public final static String URL = "http://still-peak-1428.herokuapp.com/api/v1/bar/list/";
+	public final static String URL = "http://still-peak-1428.herokuapp.com/api/v1/menu/";
 	public final static String BAR_NAME = "com.balortech.tab.BAR_NAME";
 	
 	TextView response;
 	
-	private ArrayList<BarList> barList = new ArrayList<BarList>();
+	private ArrayList<BarMenuItemList> barMenuItemList = new ArrayList<BarMenuItemList>();
 	private ExpandableListView ExpandList;
-	private BarListAdapter BarAdapter;
+	private BarMenuItemListAdapter barMenuItemListAdapter;
 
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_bar);
+		setContentView(R.layout.activity_barmenu);
 
+		Intent intent = getIntent();
+		String barName = intent.getStringExtra(BarActivity.BAR_NAME);
+		
 		response = (TextView) findViewById(R.id.tvResponse);
 
 		if (!isConnected()) {
 			response.setText("You are not connected.");
 		}
 		else {
-			new HttpAsyncTask().execute(URL);
+			Log.d("BarMenuActivity.onCreate", "URL being used: " + URL + "/" + barName);
+			new HttpAsyncTask().execute(URL +  barName.replace(" ", "%20"));
 		}
 
 		
@@ -87,27 +92,21 @@ public class BarActivity extends Activity {
 				JSONArray jsonBarList=(JSONArray)obj;
 				for(int i = 0; i < jsonBarList.size(); i++) {
 					JSONObject jsonBar=(JSONObject) jsonBarList.get(i);
-					BarList bar = new BarList();
-					bar.setName((String) jsonBar.get("name"));
+					BarMenuItemList mtList = new BarMenuItemList();
+					mtList.setName((String) jsonBar.get("item_name"));
 					
-					BarOptions option1 = new BarOptions();
-					option1.setName("Menu");
+					BarMenuItem item1 = new BarMenuItem();
+					item1.setItemName((String) jsonBar.get("item_name"));
+					item1.setItemDescription((String) jsonBar.get("item_description"));
+					item1.setItemPrice((String) jsonBar.get("item_price"));
 					
-					BarOptions option2 = new BarOptions();
-					option2.setName("Location");
+					ArrayList<BarMenuItem> itemList = new ArrayList<BarMenuItem>();
 					
-					BarOptions option3 = new BarOptions();
-					option3.setName("History");
+					itemList.add(item1);
 					
-					ArrayList<BarOptions> barOptList = new ArrayList<BarOptions>();
+					mtList.setMenuItems(itemList);
 					
-					barOptList.add(option1);
-					barOptList.add(option2);
-					barOptList.add(option3);
-					
-					bar.setMenuItems(barOptList);
-					
-					barList.add(bar);
+					barMenuItemList.add(mtList);
 				}
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
@@ -115,8 +114,8 @@ public class BarActivity extends Activity {
 			}
         	
         	ExpandList = (ExpandableListView) findViewById(R.id.lvExp);
-        	BarAdapter = new BarListAdapter(BarActivity.this, barList);
-        	ExpandList.setAdapter(BarAdapter);
+        	barMenuItemListAdapter = new BarMenuItemListAdapter(BarMenuActivity.this, barMenuItemList);
+        	ExpandList.setAdapter(barMenuItemListAdapter);
         	
         	ExpandList.setOnChildClickListener(new OnChildClickListener() {
 				@Override
@@ -126,19 +125,18 @@ public class BarActivity extends Activity {
 					
 					switch(arg3)  {
 						case 0: // Menu
-							intent = new Intent(BarActivity.this, BarMenuActivity.class);
-							intent.putExtra(BAR_NAME, barList.get(arg2).getName().toString());
+							intent = new Intent(BarMenuActivity.this, MainActivity.class);
 							break;
 						case 1:
-							intent = new Intent(BarActivity.this, MainActivity.class);
+							intent = new Intent(BarMenuActivity.this, MainActivity.class);
 							break;
 						case 2:
-							intent = new Intent(BarActivity.this, MainActivity.class);
+							intent = new Intent(BarMenuActivity.this, MainActivity.class);
 							break;
 					}
 					
 					if (intent != null) {
-						intent.putExtra(BAR_NAME, barList.get(arg2).getName().toString());
+						intent.putExtra(BAR_NAME, barMenuItemList.get(arg2).getName().toString());
 				    	startActivity(intent);
 					}
 					
