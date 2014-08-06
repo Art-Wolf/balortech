@@ -121,23 +121,13 @@ public class BarMenuActivity extends Activity {
 				@Override
 				public boolean onChildClick(ExpandableListView arg0, View arg1,
 						int arg2, int arg3, long arg4) {
-					Intent intent = null;
-					
+
 					switch(arg3)  {
 						case 0: // Menu
-							intent = new Intent(BarMenuActivity.this, MainActivity.class);
-							break;
-						case 1:
-							intent = new Intent(BarMenuActivity.this, MainActivity.class);
-							break;
-						case 2:
-							intent = new Intent(BarMenuActivity.this, MainActivity.class);
-							break;
-					}
-					
-					if (intent != null) {
-						intent.putExtra(BAR_NAME, barMenuItemList.get(arg2).getName().toString());
-				    	startActivity(intent);
+							final Controller aController = (Controller) getApplicationContext();
+							BarMenuItem barMenuItem = (BarMenuItem) barMenuItemList.get(arg2).getMenuItems().get(arg3);
+							aController.setBarMenuItem(barMenuItem);
+
 					}
 					
 					return false;

@@ -354,3 +354,13 @@
 [08/03/14 13:08:25 -0400 localhost (1260)] WARN : Agent configured not to send data in this environment.
 [08/03/14 13:08:25 -0400 localhost (1260)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 1260
 [08/03/14 13:08:25 -0400 localhost (1260)] INFO : Agent Log at /Users/johndoyle/Sites/balortech/server/log/newrelic_agent.log
+[08/05/14 22:27:34 -0400 localhost (4116)] INFO : No dispatcher detected.
+[08/05/14 22:27:34 -0400 localhost (4116)] INFO : Application: Demo
+[08/05/14 22:27:34 -0400 localhost (4116)] WARN : Agent configured not to send data in this environment.
+[08/05/14 22:27:34 -0400 localhost (4116)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 4116
+[08/05/14 22:27:34 -0400 localhost (4116)] INFO : Agent Log at /Users/johndoyle/Sites/balortech/server/log/newrelic_agent.log
+[08/05/14 22:28:05 -0400 localhost (4126)] INFO : No dispatcher detected.
+[08/05/14 22:28:05 -0400 localhost (4126)] INFO : Application: Demo
+[08/05/14 22:28:05 -0400 localhost (4126)] WARN : Agent configured not to send data in this environment.
+[08/05/14 22:28:05 -0400 localhost (4126)] INFO : New Relic Ruby Agent 3.5.4.34 Initialized: pid = 4126
+[08/05/14 22:28:05 -0400 localhost (4126)] INFO : Agent Log at /Users/johndoyle/Sites/balortech/server/log/newrelic_agent.log
